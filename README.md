@@ -33,8 +33,7 @@ config中的阅读分析是针对固定15个商品的研究记录，不是自动
 
 ## Windows首次检查
 
-将ZIP解压到D盘，确认文件为 `D:\Amazon_Project_Clean\run.py`。
-保留原工程 `D:\Amazon_Project`，使用其现有Python环境：
+将工程下载或解压到本地，并将工程文件夹命名为 Amazon_Project_Clean，确认入口文件为 D:\Amazon_Project_Clean\run.py。以下命令以本项目原有环境为例：数据及Python虚拟环境位于 D:\Amazon_Project。在其他电脑运行时，请按实际位置修改路径，并准备数据和所需依赖。
 
 ```powershell
 Set-Location D:\Amazon_Project_Clean
@@ -85,7 +84,7 @@ prepare：04–09；explore：10–22、24、25；topics：27–30、37；recomm
 `requirements.txt`列出核心依赖。更换环境后，建议重新检查文本处理和模型结果。
 
 整理版工程已通过环境与路径检查、4项回归测试，以及第四周业务任务40—43的运行核对。完整历史流程尚未在整理版工程中重新运行。
-Power BI文件属于独立工具产物；本包不含PBIX，原文件在reports/week2/Amazon_Week2_Dashboard.pbix，报告展示可使用先前导出的PDF。
+本仓库不包含PBIX文件。Power BI源文件保存在本地原工程的 D:\Amazon_Project\reports\week2\Amazon_Week2_Dashboard.pbix，静态展示见仓库中的 reports/week2/ 下对应PDF。
 
 ## 分析口径
 
