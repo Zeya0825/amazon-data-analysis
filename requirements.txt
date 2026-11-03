@@ -1,0 +1,9 @@
+# 使用项目现有.venv优先。以下为核心依赖；未固定没有完整核实的版本。
+pandas
+numpy
+matplotlib
+wordcloud
+textblob
+gensim
+scipy
+scikit-surprise
