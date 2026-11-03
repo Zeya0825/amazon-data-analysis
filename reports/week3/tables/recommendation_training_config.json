@@ -1,0 +1,33 @@
+{
+  "algorithm": "Surprise SVD",
+  "parameters": {
+    "n_factors": 50,
+    "n_epochs": 20,
+    "biased": true,
+    "lr_all": 0.005,
+    "reg_all": 0.02,
+    "random_state": 42
+  },
+  "rating_scale": [
+    1,
+    5
+  ],
+  "baselines": [
+    "GlobalMean",
+    "UserMean"
+  ],
+  "baseline_statistics_source": "training_data_only",
+  "test_predictions_clipped_to_rating_scale": true,
+  "test_used_for_parameter_tuning": false,
+  "evaluation_groups": [
+    "all_test",
+    "seen_product",
+    "unseen_product"
+  ],
+  "versions": {
+    "scikit-surprise": "1.1.5",
+    "pandas": "3.0.6",
+    "numpy": "2.5.4",
+    "matplotlib": "3.11.2"
+  }
+}

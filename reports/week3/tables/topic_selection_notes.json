@@ -1,0 +1,24 @@
+{
+  "selected_num_topics": 5,
+  "selection_reason": "Selected for exploratory reporting because it separates installation/setup/service content, while retaining coherence close to the four-topic candidate.",
+  "coherence_k4_rounded": 0.4519,
+  "coherence_k5_rounded": 0.4433,
+  "topic_names": {
+    "1": "日常使用与操作体验（混合主题）",
+    "2": "清洁设备与空气处理",
+    "3": "手机性能与充电配件",
+    "4": "音频设备与电子产品体验",
+    "5": "安装设置与售后服务（含打印机使用）"
+  },
+  "thresholds": [
+    0.1,
+    0.2
+  ],
+  "limitations": [
+    "Topic names are provisional human interpretations.",
+    "Topics may mix product categories and concerns.",
+    "Sentiment is measured for the whole text cell, not aspects.",
+    "Representative examples are not random accuracy samples.",
+    "Candidate comparison used one random seed."
+  ]
+}

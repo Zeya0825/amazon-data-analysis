@@ -1,0 +1,2 @@
+﻿train_rows,test_rows,train_users,train_products,training_global_mean,svd_training_seconds,n_factors,n_epochs,random_seed
+356278,95762,13351,100896,4.243885392867368,2.0049785999581218,50,20,42

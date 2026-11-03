@@ -1,0 +1,2 @@
+﻿input_text_count,nonempty_original_text_count,texts_with_tokens_before_filter,included_text_count,excluded_empty_after_filter,vocabulary_before_filter,vocabulary_after_filter,min_document_count,max_document_share
+1186,1186,1186,1186,0,11515,2785,5,0.8

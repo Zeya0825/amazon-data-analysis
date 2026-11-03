@@ -1,0 +1,4 @@
+﻿scenario,evaluated_users,min_candidate_count,mean_candidate_count,max_candidate_count,mean_sampled_train_count,mean_sampled_head_share
+Uniform100,2000,101,106.052,152,3.51485,0.10021000000000001
+Popularity100,2000,101,106.052,152,29.517355,0.55367
+Uniform500,2000,501,506.052,552,3.511459,0.099871

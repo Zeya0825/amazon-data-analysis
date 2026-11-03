@@ -1,0 +1,9 @@
+{
+  "input_file": "ratings_unique.csv",
+  "minimum_user_rating_records": 20,
+  "selection_scope": "full_observed_history",
+  "random_user_sampling": false,
+  "product_filter_applied": false,
+  "duplicate_user_product_rows_removed": false,
+  "note": "Exploratory active-user subset selected using total observed rating counts. Not representative of all users and not a prospective deployment simulation."
+}

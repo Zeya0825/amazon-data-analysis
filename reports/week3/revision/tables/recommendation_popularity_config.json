@@ -1,0 +1,21 @@
+{
+  "relevant_rating_threshold": 4.0,
+  "popularity_source": "training rating counts only",
+  "groups": [
+    "Unseen",
+    "1",
+    "2-4",
+    "5-9",
+    "10-19",
+    "20+"
+  ],
+  "head_definition": "Top ceil(10% of training catalog) items by training rating count; product_id breaks ties.",
+  "scope": "All test records; this is not the restricted user cohort used in the earlier Top-N evaluation.",
+  "notes": [
+    "Rating frequency is not sales volume.",
+    "Unseen items are reported separately.",
+    "Relevant means held-out rating >= 4.",
+    "This step does not calculate new Top-N metrics.",
+    "No model retraining or input modification."
+  ]
+}

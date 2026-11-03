@@ -1,0 +1,14 @@
+{
+  "user_id": "A0284208PB0CNSHI1OC6",
+  "known_user": true,
+  "training_history_rows": 16,
+  "candidate_count": 100880,
+  "requested_top_n": 10,
+  "returned_per_method": 10,
+  "candidate_source": "all_training_products",
+  "excluded_items": "user_training_rated_items",
+  "test_data_used": false,
+  "model_retrained": false,
+  "tie_breaking": "product_id_ascending",
+  "note": "Training-state demonstration, not a new evaluation. Held-out test items are not excluded because test data is not read. Rating counts are not sales counts."
+}

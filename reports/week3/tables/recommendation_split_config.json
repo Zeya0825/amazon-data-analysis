@@ -1,0 +1,17 @@
+{
+  "method": "per_user_random_holdout",
+  "test_ratio_target": 0.2,
+  "test_count_rounding": "ceil",
+  "random_seed": 42,
+  "input_order": [
+    "user_id",
+    "source_row"
+  ],
+  "unseen_test_products_retained": true,
+  "limitations": [
+    "Random historical holdout, not future-time prediction.",
+    "Active-user cohort selected using full-history counts.",
+    "No test ratings may be used for model training.",
+    "Unseen products must be reported separately in evaluation."
+  ]
+}

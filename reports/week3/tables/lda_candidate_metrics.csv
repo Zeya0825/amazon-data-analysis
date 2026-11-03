@@ -1,0 +1,5 @@
+﻿num_topics,text_count,vocabulary_size,coherence_cv,top_word_diversity,random_seed,passes,iterations,elapsed_seconds,evaluation_scope
+3,1186,2785,0.40206128082977893,0.7333333333333333,42,15,100,6.487235399981728,same_corpus_descriptive
+4,1186,2785,0.4518893727828661,0.775,42,15,100,6.12102320001577,same_corpus_descriptive
+5,1186,2785,0.44333913235968475,0.76,42,15,100,5.788438799994765,same_corpus_descriptive
+6,1186,2785,0.4197148556008589,0.75,42,15,100,5.691321299993433,same_corpus_descriptive

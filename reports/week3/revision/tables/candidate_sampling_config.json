@@ -1,0 +1,28 @@
+{
+  "seed": 42,
+  "eligible_users": 13212,
+  "evaluated_users": 2000,
+  "maximum_users": 2000,
+  "k": [
+    5,
+    10
+  ],
+  "relevant_threshold": 4,
+  "scenarios": [
+    "Uniform100",
+    "Popularity100",
+    "Uniform500"
+  ],
+  "head_definition": "Top ceil(10% of training catalog) by training rating count, product_id breaks ties",
+  "tail_definition": "Remaining 90% of training catalog",
+  "notes": [
+    "Same sampled users in all scenarios.",
+    "Same candidates for both models within a scenario.",
+    "All seen test items retained in every candidate set.",
+    "Sampled unrated items have unknown relevance.",
+    "Overall precision/recall/hit rate are user macro means.",
+    "Head/tail recall are pooled hits divided by pooled relevant counts.",
+    "Weighted sampling uses training counts, not actual exposure logs.",
+    "No retraining, tuning or full-catalog ranking evaluation."
+  ]
+}

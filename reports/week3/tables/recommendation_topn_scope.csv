@@ -1,0 +1,2 @@
+﻿total_test_users,evaluated_users,excluded_no_seen_test_items,excluded_no_relevant_seen_test_items,test_rows_on_unseen_products,relevant_rating_threshold,sampled_unrated_items_per_user,min_candidate_count,mean_candidate_count,max_candidate_count
+13351,13212,15,124,15476,4.0,100,101,106.04738116863457,189

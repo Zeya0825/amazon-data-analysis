@@ -1,0 +1,14 @@
+{
+  "user_id": "DEMO_NEW_USER",
+  "known_user": false,
+  "training_history_rows": 0,
+  "candidate_count": 100896,
+  "requested_top_n": 10,
+  "returned_per_method": 10,
+  "candidate_source": "all_training_products",
+  "excluded_items": "user_training_rated_items",
+  "test_data_used": false,
+  "model_retrained": false,
+  "tie_breaking": "product_id_ascending",
+  "note": "Training-state demonstration, not a new evaluation. Held-out test items are not excluded because test data is not read. Rating counts are not sales counts."
+}

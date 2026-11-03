@@ -1,0 +1,2 @@
+﻿input_rows,train_rows,test_rows,row_count_matches,overlapping_source_rows,overlapping_user_product_pairs,all_test_users_seen_in_train,minimum_train_rows_per_user,minimum_test_rows_per_user
+452040,356278,95762,True,0,0,True,16,4

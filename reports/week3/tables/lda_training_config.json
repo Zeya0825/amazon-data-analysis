@@ -1,0 +1,20 @@
+{
+  "topic_counts": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "random_seed": 42,
+  "passes": 15,
+  "iterations": 100,
+  "alpha": "symmetric",
+  "eta": "symmetric",
+  "update_every": 0,
+  "coherence": "c_v",
+  "coherence_topn": 10,
+  "coherence_processes": 1,
+  "text_count": 1186,
+  "vocabulary_size": 2785,
+  "note": "Exploratory topic comparison on the same corpus. No final topic count selected automatically. One random seed used in this initial comparison."
+}

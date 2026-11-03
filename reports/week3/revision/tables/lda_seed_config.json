@@ -1,0 +1,32 @@
+{
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "topic_counts": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "passes": 15,
+  "iterations": 100,
+  "update_every": 0,
+  "alpha": "symmetric",
+  "eta": "symmetric",
+  "eval_every": null,
+  "coherence": "c_v",
+  "topn": 10,
+  "coherence_processes": 1,
+  "text_count": 1186,
+  "vocabulary_size": 2785,
+  "topic_matching": "One-to-one matching maximizing total top-10 keyword Jaccard similarity",
+  "notes": [
+    "Same input texts and dictionary for all runs.",
+    "Coherence is descriptive, not classification accuracy.",
+    "Sample SD across three seeds is not a confidence interval.",
+    "Keyword matching does not prove semantic equivalence.",
+    "Original models and reports are not overwritten."
+  ]
+}

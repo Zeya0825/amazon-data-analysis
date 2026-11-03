@@ -1,0 +1,2 @@
+﻿minimum_user_rating_records,source_rows_scanned,selected_rating_rows,selected_users,selected_products,min_records_per_user,max_records_per_user,mean_records_per_user,products_with_one_record,repeated_user_product_pairs,extra_user_product_rows,observed_pair_density_percent,earliest_time_utc,latest_time_utc
+20,7824482,452040,13351,115394,20,520,33.85813796719347,64848,0,0,0.029341333143138696,1999-07-14T00:00:00+00:00,2014-07-23T00:00:00+00:00

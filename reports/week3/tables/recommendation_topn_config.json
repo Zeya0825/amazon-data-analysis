@@ -1,0 +1,23 @@
+{
+  "seed": 42,
+  "k_values": [
+    5,
+    10
+  ],
+  "relevant_rating_threshold": 4.0,
+  "sampled_unrated_items_per_user": 100,
+  "candidate_catalog": "training_products_only",
+  "candidates": "all_seen_test_items_plus_sampled_unrated_items",
+  "evaluated_users": "at_least_one_relevant_seen_test_item",
+  "aggregation": "macro_average_equal_weight_per_user",
+  "tie_breaking": "shared_random_candidate_order",
+  "svd_ranking_score": "unclipped_prediction",
+  "popularity_score": "training_rating_count",
+  "limitations": [
+    "Sampled-candidate evaluation, not full-catalog evaluation.",
+    "Unrated items have unknown relevance; they are not confirmed negatives.",
+    "Recall denominator excludes unseen-product test positives.",
+    "Results concern selected active users with evaluable positives.",
+    "Example lists come from evaluation candidates, not full-catalog serving."
+  ]
+}
