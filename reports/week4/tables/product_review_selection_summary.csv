@@ -1,0 +1,6 @@
+﻿review_status,product_count,share_percent,explanation
+not_selected_by_current_rule,1009,74.68541820873426,未进入本次筛选范围，不代表不存在问题。
+check_missing_or_invalid_values,3,0.22205773501110287,评分或评分人数缺失/异常，先核查数据。
+low_rating_limited_count,34,2.516654330125833,评分低于4分，但评分人数不足100，单独保留观察。
+check_key_field_differences_first,5,0.3700962250185048,满足评分和人数条件，但重复记录关键字段不同，先核查。
+review_text_next,300,22.205773501110286,评分低于4分且评分人数不少于100，下一步阅读评论。

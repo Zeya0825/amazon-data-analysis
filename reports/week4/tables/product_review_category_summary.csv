@@ -1,0 +1,10 @@
+﻿main_category,product_count,valid_rating_products,rating_below_4_products,rating_below_4_percent,review_text_next_products,check_key_differences_products,low_rating_limited_count_products
+Electronics,490,490,128,26.122448979591837,121,2,5
+Home&Kitchen,448,447,144,32.21476510067114,121,0,23
+Computers&Accessories,375,375,66,17.599999999999998,56,3,6
+OfficeProducts,31,31,0,0.0,0,0,0
+MusicalInstruments,2,2,1,50.0,1,0,0
+HomeImprovement,2,2,0,0.0,0,0,0
+Car&Motorbike,1,1,1,100.0,1,0,0
+Health&PersonalCare,1,1,0,0.0,0,0,0
+Toys&Games,1,1,0,0.0,0,0,0
