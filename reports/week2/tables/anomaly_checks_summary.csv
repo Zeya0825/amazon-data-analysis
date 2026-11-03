@@ -1,0 +1,13 @@
+﻿check_name,field,checked_rows,flagged_rows,flagged_ratio
+non_numeric_value,discounted_price,1465,0,0.0
+non_numeric_value,actual_price,1465,0,0.0
+non_numeric_value,discount_percentage,1465,0,0.0
+non_numeric_value,rating,1465,1,0.0006825938566552901
+non_numeric_value,rating_count,1463,0,0.0
+negative_discounted_price,discounted_price,1465,0,0.0
+non_positive_actual_price,actual_price,1465,0,0.0
+discounted_above_actual,discounted_price,1465,0,0.0
+discount_outside_0_1,discount_percentage,1465,0,0.0
+rating_outside_1_5,rating,1464,0,0.0
+negative_or_fractional_rating_count,rating_count,1463,0,0.0
+discount_difference_over_1_percentage_point,discount_percentage,1465,0,0.0

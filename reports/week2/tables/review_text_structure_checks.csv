@@ -1,0 +1,7 @@
+﻿check,count
+selected_products,1351
+nonempty_review_text,1351
+empty_review_text,0
+unique_nonempty_text_after_whitespace_normalization,1197
+repeated_text_rows_excluding_first,154
+review_id_cells_containing_comma,1347

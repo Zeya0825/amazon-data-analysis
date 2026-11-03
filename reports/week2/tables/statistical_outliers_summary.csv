@@ -1,0 +1,3 @@
+﻿field,valid_rows,q1,q3,iqr,lower_bound,upper_bound,flagged_rows,action
+discounted_price,1351,349.0,2174.0,1825.0,-2388.5,4911.5,209,flag_only_no_deletion
+rating_count,1349,1106.0,16020.0,14914.0,-21265.0,38391.0,130,flag_only_no_deletion

@@ -1,0 +1,53 @@
+﻿table_name,row_meaning,field_name,logical_type,meaning,unit_or_range,notes
+amazon.csv,一条原始商品记录，商品编号可能重复,product_id,文本,商品编号,无,可能重复，按文本读取
+amazon.csv,一条原始商品记录，商品编号可能重复,product_name,文本,商品名称,无,
+amazon.csv,一条原始商品记录，商品编号可能重复,category,文本,商品分类路径,无,多级类别以竖线分隔
+amazon.csv,一条原始商品记录，商品编号可能重复,discounted_price,文本,展示的折后价格,INR,原始值含货币符号或千位分隔符，不是销售金额
+amazon.csv,一条原始商品记录，商品编号可能重复,actual_price,文本,展示的原价,INR,不是已核实的历史成交价
+amazon.csv,一条原始商品记录，商品编号可能重复,discount_percentage,文本,标示的降价百分比,0%～100%,降价60%表示按原价40%出售
+amazon.csv,一条原始商品记录，商品编号可能重复,rating,文本,商品层面评分,通常1～5,发现一个竖线异常值，清洗后转为缺失
+amazon.csv,一条原始商品记录，商品编号可能重复,rating_count,文本,商品页面报告的评分数量,次,有2条缺失，不是销量或本文件提供的评论条数
+amazon.csv,一条原始商品记录，商品编号可能重复,about_product,文本,商品介绍,无,
+amazon.csv,一条原始商品记录，商品编号可能重复,user_id,文本,所附评论的用户编号字段,无,一格可能含多个用户，不能直接当作独立用户记录
+amazon.csv,一条原始商品记录，商品编号可能重复,user_name,文本,所附评论的用户名称字段,无,一格可能含多个名称
+amazon.csv,一条原始商品记录，商品编号可能重复,review_id,文本,所附评论的编号字段,无,一格可能含多个评论编号
+amazon.csv,一条原始商品记录，商品编号可能重复,review_title,文本,所附评论标题,无,可能汇总多个标题
+amazon.csv,一条原始商品记录，商品编号可能重复,review_content,文本,所附评论正文,字符,可能汇总多条评论，不能直接按逗号拆成独立评论
+amazon.csv,一条原始商品记录，商品编号可能重复,img_link,文本,商品图片链接,URL,
+amazon.csv,一条原始商品记录，商品编号可能重复,product_link,文本,商品页面链接,URL,
+ratings_Electronics (1).csv,一条用户对商品的历史评分记录,user_id,文本,评分用户编号,无,不表示购买行为
+ratings_Electronics (1).csv,一条用户对商品的历史评分记录,product_id,文本,被评分商品编号,无,保留前导零
+ratings_Electronics (1).csv,一条用户对商品的历史评分记录,rating,数值,该条记录的评分,1～5,与商品表的商品层面评分口径不同
+ratings_Electronics (1).csv,一条用户对商品的历史评分记录,timestamp,整数,评分时间的Unix时间戳,秒,按UTC转换
+products_unique.csv,一个商品,source_row,整数,对应原始商品记录的行序号,从1开始,不包括CSV表头
+products_unique.csv,一个商品,product_id,文本,商品编号,无,本表唯一；重复商品选择原始行序号最小的记录
+products_unique.csv,一个商品,product_name,文本,商品名称,无,
+products_unique.csv,一个商品,category,文本,完整分类路径,无,
+products_unique.csv,一个商品,main_category,文本,一级商品类别,无,从完整分类路径提取
+products_unique.csv,一个商品,discounted_price,数值,清洗后的展示折后价格,INR,不能乘评分数量估算销售额
+products_unique.csv,一个商品,actual_price,数值,清洗后的展示原价,INR,
+products_unique.csv,一个商品,currency,文本,货币单位,INR,印度卢比
+products_unique.csv,一个商品,discount_percentage,数值,降价比例,0～1,0.49表示降价49%
+products_unique.csv,一个商品,rating,数值，可缺失,商品评分,1～5,统计平均评分时排除缺失；每个商品等权
+products_unique.csv,一个商品,rating_count,整数，可缺失,页面报告的评分数量,次,不是销量，不用0填补缺失
+products_unique.csv,一个商品,source_record_count,整数,该商品在原始表中的记录数量,条,
+products_unique.csv,一个商品,different_fields,文本，可空,重复记录中不同的已检查关键字段,字段名,空白不一定是数据缺失，也可能表示未发现关键字段差异
+products_unique.csv,一个商品,has_key_differences,布尔值,重复记录是否存在关键字段差异,True或False,33个商品标记为True
+products_unique.csv,一个商品,selection_rule,文本,重复商品代表记录的选取规则,无,first_source_row，不表示最新记录
+products_unique.csv,一个商品,price_needs_check,布尔值,是否被价格规则标记,True或False,具体规则见清洗代码
+products_unique.csv,一个商品,discount_needs_check,布尔值,是否被折扣规则标记,True或False,具体规则见清洗代码
+ratings_unique.csv,一条去除完全重复后的历史评分记录,user_id,文本,评分用户编号,无,不表示购买行为
+ratings_unique.csv,一条去除完全重复后的历史评分记录,product_id,文本,被评分商品编号,无,保留前导零
+ratings_unique.csv,一条去除完全重复后的历史评分记录,rating,数值,该条记录的评分,1～5,与商品表的商品层面评分口径不同
+ratings_unique.csv,一条去除完全重复后的历史评分记录,timestamp,整数,评分时间的Unix时间戳,秒,按UTC转换
+ratings_unique.csv,一条去除完全重复后的历史评分记录,source_row,整数,对应原始评分记录的行序号,从1开始,用于追溯原始记录
+ratings_unique.csv,一条去除完全重复后的历史评分记录,rating_datetime_utc,日期时间,转换后的评分时间,UTC,范围为1998-12-04至2014-07-23，首尾年份不完整
+product_review_text_analysis.csv,一个商品所附的整格评论文本,product_id,文本,商品编号,无,
+product_review_text_analysis.csv,一个商品所附的整格评论文本,source_row,整数,选用记录的原始行序号,从1开始,
+product_review_text_analysis.csv,一个商品所附的整格评论文本,main_category,文本,一级商品类别,无,
+product_review_text_analysis.csv,一个商品所附的整格评论文本,rating,数值，可缺失,商品层面评分,1～5,不是整格评论对应的某位用户评分
+product_review_text_analysis.csv,一个商品所附的整格评论文本,review_text_clean,文本,去网址、HTML标签并整理空白后的正文,无,保留否定词；一格可能含多条评论
+product_review_text_analysis.csv,一个商品所附的整格评论文本,text_character_count,整数,清理后整格文本的字符数,字符,不是单条独立评论长度
+review_sentiment_unique_texts.csv,一份不同的非空清理后文本,text_id,文本,本次分析分配的文本编号,无,不是原始评论编号
+review_sentiment_unique_texts.csv,一份不同的非空清理后文本,polarity,数值,TextBlob自动情感得分,-1～1,不是概率或模型准确率
+review_sentiment_unique_texts.csv,一份不同的非空清理后文本,sentiment_label,文本,自动情感分类,三个类别,>0.1偏正面；<-0.1偏负面；其余倾向不明显

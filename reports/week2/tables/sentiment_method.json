@@ -1,0 +1,11 @@
+{
+  "textblob_version": "0.20.1",
+  "analyzer": "PatternAnalyzer",
+  "analysis_unit": "unique_cleaned_review_text_cell",
+  "text_count": 1186,
+  "positive_rule": "polarity > 0.1",
+  "negative_rule": "polarity < -0.1",
+  "near_neutral_rule": "-0.1 <= polarity <= 0.1",
+  "manual_sample_rule": "up to 3 random texts per predicted class",
+  "random_seed": 42
+}

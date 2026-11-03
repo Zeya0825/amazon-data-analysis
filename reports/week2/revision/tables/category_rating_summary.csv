@@ -1,0 +1,10 @@
+﻿main_category,product_count,valid_rating_count,missing_or_non_numeric_rating_count,mean_product_rating,median_product_rating,min_product_rating,max_product_rating,rating_ge_4_count,rating_ge_4_percent
+Electronics,490,490,0,4.0777551020408165,4.1,2.8,4.7,362,73.87755102040816
+Home&Kitchen,448,447,1,4.040715883668904,4.1,2.0,4.8,303,67.78523489932886
+Computers&Accessories,375,375,0,4.153866666666667,4.2,3.0,5.0,309,82.39999999999999
+OfficeProducts,31,31,0,4.309677419354839,4.3,4.0,4.5,31,100.0
+MusicalInstruments,2,2,0,3.9,3.9,3.8,4.0,1,50.0
+HomeImprovement,2,2,0,4.25,4.25,4.0,4.5,2,100.0
+Toys&Games,1,1,0,4.3,4.3,4.3,4.3,1,100.0
+Car&Motorbike,1,1,0,3.8,3.8,3.8,3.8,0,0.0
+Health&PersonalCare,1,1,0,4.0,4.0,4.0,4.0,1,100.0

@@ -1,0 +1,11 @@
+﻿text_id,product_id,polarity,label_at_0.1,label_at_0.2,selection_reason
+T0208,B09VH568H7,0.10000000000000005,Positive,Near-neutral,score-spread examples: Positive to Near-neutral
+T0407,B07XCM6T4N,0.13541666666666666,Positive,Near-neutral,score-spread examples: Positive to Near-neutral
+T0372,B07WHS7MZ1,0.159464627805145,Positive,Near-neutral,score-spread examples: Positive to Near-neutral
+T0877,B07WJXCTG9,0.18029914529914529,Positive,Near-neutral,score-spread examples: Positive to Near-neutral
+T1099,B07LDN9Q2P,0.2,Positive,Near-neutral,score-spread examples: Positive to Near-neutral
+T0113,B00RFWNJMC,-0.1797619047619048,Negative,Near-neutral,all Negative to Near-neutral cases
+T0020,B09F6S8BT6,-0.17224489795918366,Negative,Near-neutral,all Negative to Near-neutral cases
+T1185,B00J5DYCCA,-0.17016666666666672,Negative,Near-neutral,all Negative to Near-neutral cases
+T0920,B09SPTNG58,-0.12249999999999994,Negative,Near-neutral,all Negative to Near-neutral cases
+T1089,B07LG96SDB,-0.11249999999999996,Negative,Near-neutral,all Negative to Near-neutral cases

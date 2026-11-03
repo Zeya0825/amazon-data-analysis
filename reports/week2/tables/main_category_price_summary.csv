@@ -1,0 +1,4 @@
+﻿main_category,valid_price_count,non_positive_count,median_price_inr,q1_price_inr,q3_price_inr
+Electronics,490,0,1384.0,399.0,7998.75
+Home&Kitchen,448,0,1199.0,632.5,2695.75
+Computers&Accessories,375,0,399.0,249.0,849.0

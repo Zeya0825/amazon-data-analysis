@@ -1,0 +1,10 @@
+﻿main_category,product_count,valid_price_count,missing_or_non_numeric_price_count,min_price_inr,q1_price_inr,median_price_inr,mean_price_inr,q3_price_inr,max_price_inr
+Electronics,490,490,0,79.0,399.0,1384.0,6225.869387755102,7998.75,77990.0
+Home&Kitchen,448,448,0,79.0,632.5,1199.0,2330.6156473214287,2695.75,42990.0
+Computers&Accessories,375,375,0,39.0,249.0,399.0,947.4889599999999,849.0,37247.0
+OfficeProducts,31,31,0,50.0,117.0,178.0,301.5806451612903,380.5,1399.0
+MusicalInstruments,2,2,0,478.0,558.0,638.0,638.0,718.0,798.0
+HomeImprovement,2,2,0,249.0,293.0,337.0,337.0,381.0,425.0
+Toys&Games,1,1,0,150.0,150.0,150.0,150.0,150.0,150.0
+Car&Motorbike,1,1,0,2339.0,2339.0,2339.0,2339.0,2339.0,2339.0
+Health&PersonalCare,1,1,0,899.0,899.0,899.0,899.0,899.0,899.0
