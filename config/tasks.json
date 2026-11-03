@@ -1,0 +1,154 @@
+{
+  "4": {
+    "module": "amazon_project.tasks.check_matching",
+    "name": "check_matching"
+  },
+  "5": {
+    "module": "amazon_project.tasks.clean_products",
+    "name": "clean_products"
+  },
+  "6": {
+    "module": "amazon_project.tasks.build_product_table",
+    "name": "build_product_table"
+  },
+  "7": {
+    "module": "amazon_project.tasks.clean_ratings",
+    "name": "clean_ratings"
+  },
+  "8": {
+    "module": "amazon_project.tasks.deduplicate_ratings",
+    "name": "deduplicate_ratings"
+  },
+  "9": {
+    "module": "amazon_project.tasks.summarize_ratings",
+    "name": "summarize_ratings"
+  },
+  "10": {
+    "module": "amazon_project.tasks.missing_values",
+    "name": "missing_values"
+  },
+  "11": {
+    "module": "amazon_project.tasks.check_anomalies",
+    "name": "check_anomalies"
+  },
+  "12": {
+    "module": "amazon_project.tasks.plot_data_quality",
+    "name": "plot_data_quality"
+  },
+  "13": {
+    "module": "amazon_project.tasks.analyze_categories",
+    "name": "analyze_categories"
+  },
+  "14": {
+    "module": "amazon_project.tasks.analyze_prices",
+    "name": "analyze_prices"
+  },
+  "15": {
+    "module": "amazon_project.tasks.analyze_ratings_discounts",
+    "name": "analyze_ratings_discounts"
+  },
+  "16": {
+    "module": "amazon_project.tasks.analyze_historical_ratings",
+    "name": "analyze_historical_ratings"
+  },
+  "17": {
+    "module": "amazon_project.tasks.inspect_review_text",
+    "name": "inspect_review_text"
+  },
+  "18": {
+    "module": "amazon_project.tasks.analyze_review_length",
+    "name": "analyze_review_length"
+  },
+  "19": {
+    "module": "amazon_project.tasks.analyze_review_keywords",
+    "name": "analyze_review_keywords"
+  },
+  "20": {
+    "module": "amazon_project.tasks.analyze_review_sentiment",
+    "name": "analyze_review_sentiment"
+  },
+  "21": {
+    "module": "amazon_project.tasks.build_data_dictionary",
+    "name": "build_data_dictionary"
+  },
+  "22": {
+    "module": "amazon_project.tasks.sentiment_threshold_analysis",
+    "name": "sentiment_threshold_analysis"
+  },
+  "24": {
+    "module": "amazon_project.tasks.inspect_threshold_texts",
+    "name": "inspect_threshold_texts"
+  },
+  "25": {
+    "module": "amazon_project.tasks.category_rating_price",
+    "name": "category_rating_price"
+  },
+  "27": {
+    "module": "amazon_project.tasks.prepare_topic_texts",
+    "name": "prepare_topic_texts"
+  },
+  "28": {
+    "module": "amazon_project.tasks.train_lda_candidates",
+    "name": "train_lda_candidates"
+  },
+  "29": {
+    "module": "amazon_project.tasks.inspect_topic_examples",
+    "name": "inspect_topic_examples"
+  },
+  "30": {
+    "module": "amazon_project.tasks.analyze_topic_sentiment",
+    "name": "analyze_topic_sentiment"
+  },
+  "31": {
+    "module": "amazon_project.tasks.check_rating_users",
+    "name": "check_rating_users"
+  },
+  "32": {
+    "module": "amazon_project.tasks.prepare_recommendation_subset",
+    "name": "prepare_recommendation_subset"
+  },
+  "33": {
+    "module": "amazon_project.tasks.split_recommendation_data",
+    "name": "split_recommendation_data"
+  },
+  "34": {
+    "module": "amazon_project.tasks.train_svd_model",
+    "name": "train_svd_model"
+  },
+  "35": {
+    "module": "amazon_project.tasks.evaluate_topn_recommendations",
+    "name": "evaluate_topn_recommendations"
+  },
+  "36": {
+    "module": "amazon_project.tasks.recommend_products_demo",
+    "name": "recommend_products_demo"
+  },
+  "37": {
+    "module": "amazon_project.tasks.check_lda_seeds",
+    "name": "check_lda_seeds"
+  },
+  "38": {
+    "module": "amazon_project.tasks.analyze_recommendation_popularity",
+    "name": "analyze_recommendation_popularity"
+  },
+  "39": {
+    "module": "amazon_project.tasks.compare_candidate_sampling",
+    "name": "compare_candidate_sampling"
+  },
+  "40": {
+    "module": "amazon_project.tasks.build_product_review_list",
+    "name": "build_product_review_list"
+  },
+  "41": {
+    "module": "amazon_project.tasks.extract_product_review_evidence",
+    "name": "extract_product_review_evidence"
+  },
+  "42": {
+    "module": "amazon_project.tasks.summarize_product_review_actions",
+    "name": "summarize_product_review_actions"
+  },
+  "43": {
+    "module": "amazon_project.tasks.build_business_action_plan",
+    "name": "build_business_action_plan"
+  }
+}

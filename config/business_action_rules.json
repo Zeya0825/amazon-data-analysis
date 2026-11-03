@@ -1,0 +1,54 @@
+[
+  {
+    "action_id": "A01",
+    "suggested_order": 1,
+    "issue_type": "功能表现与耐用性",
+    "action_name": "核查主要功能和故障反馈",
+    "suggested_owner": "商品质量或供应商对接人员",
+    "proposed_action": "根据商品反馈分别测试充电、续航、连接、密封或运转表现；记录设备、材料、使用条件及结果，区分操作条件与实际故障。",
+    "expected_output": "商品测试记录、问题是否复现、后续处理建议",
+    "process_metric": "已完成测试项目数 / 计划测试项目数",
+    "followup_metric": "若获得售后和订单数据，可观察同类问题售后申请率；分母使用同一销售批次或观察窗口的订单数，并统一跟踪时长。",
+    "additional_data_needed": "实物样品、测试记录、售后原因、订单及批次信息",
+    "interpretation_note": "评论中的反馈不是已确认故障；本项目没有实物检测结果。"
+  },
+  {
+    "action_id": "A02",
+    "suggested_order": 2,
+    "issue_type": "商品说明与适配",
+    "action_name": "补充适配范围与功能说明",
+    "suggested_owner": "商品运营或内容维护人员",
+    "proposed_action": "补充适配型号、实际尺寸、支持和不支持的功能、适用食材及使用限制；涉及性能的内容以核实结果为依据。",
+    "expected_output": "商品说明修改清单、适配表及修改前后版本记录",
+    "process_metric": "已核实并补齐的说明项数 / 计划补齐的说明项数",
+    "followup_metric": "若获得客服和订单数据，可观察每百笔订单中的适配或功能咨询次数；修改前后使用一致的咨询分类和统计窗口。",
+    "additional_data_needed": "正式规格、兼容性测试、页面版本、咨询及订单记录",
+    "interpretation_note": "说明修改后的效果需要新增数据验证，不能直接推断销量提升。"
+  },
+  {
+    "action_id": "A03",
+    "suggested_order": 3,
+    "issue_type": "操作与结构设计",
+    "action_name": "完善操作指导并检查使用不便",
+    "suggested_owner": "产品或使用指导人员",
+    "proposed_action": "补充配对、充电、穿线、打结、封口等操作示例；对电池盖、按钮及固定结构等问题单独检查。",
+    "expected_output": "操作指引、使用测试记录、结构改进建议",
+    "process_metric": "已完成操作指引或结构检查项数 / 计划项数",
+    "followup_metric": "在相同操作任务下，记录成功完成任务的测试人数 / 总测试人数；比较修改前后时保持任务和测试条件尽量一致。",
+    "additional_data_needed": "操作任务定义、用户测试记录、样品及结构检查结果",
+    "interpretation_note": "操作困难和结构故障需分开判断；目前没有用户测试结果。"
+  },
+  {
+    "action_id": "A04",
+    "suggested_order": 1,
+    "issue_type": "售后与评价核查",
+    "action_name": "核实售后流程和评价相关说法",
+    "suggested_owner": "售后或评价管理人员",
+    "proposed_action": "核实保修受理入口、处理过程及等待时间；对评论提到的五星评价返现说法另行收集材料并核查。",
+    "expected_output": "售后流程记录、个案核查结论和必要的改进清单",
+    "process_metric": "已完成核查事项数 / 计划核查事项数",
+    "followup_metric": "售后可观察首次响应时长、结案时长及未结案数量；评价相关事项记录核查结论，不与售后时长合成一个指标。",
+    "additional_data_needed": "售后工单、各环节时间记录、评价激励相关材料",
+    "interpretation_note": "评论中的个案说法尚未验证，不能写成已经确认的事实。"
+  }
+]
